@@ -1,4 +1,4 @@
-import './headerComp.scss';
+import './header.scss';
 
 export const HeaderNavigation = () => {
   const navbar = [
@@ -10,7 +10,8 @@ export const HeaderNavigation = () => {
 
   return (
     <>
-      <nav>
+    <header className='header'>
+      <nav className='header__nav'>
         <button><a href="/image">logo</a></button>
         {navbar.map((item) => (
           <button className="button" key={item.id}>
@@ -18,10 +19,11 @@ export const HeaderNavigation = () => {
           </button>
         ))}
       </nav>
-      <div>
-        <button></button>
-        <button></button>
+      <div className='header__autorize'>
+        <button className='button'>Вход</button>
+        <button className='button'>Регистрация</button>
         </div>
+        </header>
     </>
   );
 };
