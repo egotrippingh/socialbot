@@ -1,34 +1,45 @@
-
 .header {
+
   display: flex;
+  flex-basis: auto;
+  position: sticky;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  flex-wrap: nowrap;
   background-color: gray;
-  width: 100vh;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+
+  &__logo {
+    display: flex;
+    justify-content: flex-start;
+
+  }
 
   &__nav {
-    display:flex
+    display: flex;
+    justify-content: center;
   }
 
   &__autorize {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
+
+
   }
+
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: white;
 }
 
 .button {
-  height: 30px;
-  width: 75px;
-  border: 2px solid black;
-  border-radius: 10px;
-  background-color: white;
-  color: black;
-  transition: 0.2s ease-in-out;
-}
-
-.button:hover {
-  border: 2px solid white;
-  background-color: gray;
+  background-color: black;
+  border: 0px transparent;
   color: white;
+
 }

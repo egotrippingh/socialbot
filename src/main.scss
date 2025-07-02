@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import '@a1rth/css-normalize';
 
 html, body {
   width: 100%;
@@ -10,4 +6,41 @@ html, body {
   overflow: hidden; /* Если хотите скрыть прокрутку */
   display: flex;
   justify-content: center;
+  font-family: Benzin-R;
+}
+
+
+@font-face {
+  font-family: "Benzin-R";
+  src: url("public/fonts/Benzin-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Benzin-M";
+  src: url("public/fonts/Benzin-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Benzin-SB";
+  src: url("public/fonts/Benzin-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Benzin-B";
+  src: url("public/fonts/Benzin-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Benzin-EB";
+  src: url("public/fonts/Benzin-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
 }
