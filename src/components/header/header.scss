@@ -1,5 +1,4 @@
 .header {
-
   display: flex;
   flex-basis: auto;
   position: sticky;
@@ -8,14 +7,11 @@
   background-color: gray;
   justify-content: space-between;
   align-items: center;
-
-
-
+  @include fluid-text(128, 16);
 
   &__logo {
     display: flex;
     justify-content: flex-start;
-
   }
 
   &__nav {
@@ -26,10 +22,7 @@
   &__autorize {
     display: flex;
     justify-content: flex-end;
-
-
   }
-
 }
 
 .header__nav a {
@@ -41,5 +34,4 @@
   background-color: black;
   border: 0px transparent;
   color: white;
-
 }
