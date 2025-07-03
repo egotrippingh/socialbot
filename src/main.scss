@@ -1,6 +1,8 @@
-@import '@a1rth/css-normalize';
+@use "/styles/helpers" as *;
+@use "@a1rth/css-normalize";
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   overflow: hidden; /* Если хотите скрыть прокрутку */
@@ -9,38 +11,37 @@ html, body {
   font-family: Benzin-R;
 }
 
-
 @font-face {
   font-family: "Benzin-R";
-  src: url("public/fonts/Benzin-Regular.woff2") format("woff2");
+  src: url("/fonts/Benzin-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Benzin-M";
-  src: url("public/fonts/Benzin-Medium.woff2") format("woff2");
+  src: url("/fonts/Benzin-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Benzin-SB";
-  src: url("public/fonts/Benzin-SemiBold.woff2") format("woff2");
+  src: url("/fonts/Benzin-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Benzin-B";
-  src: url("public/fonts/Benzin-Bold.woff2") format("woff2");
+  src: url("/fonts/Benzin-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Benzin-EB";
-  src: url("public/fonts/Benzin-ExtraBold.woff2") format("woff2");
+  src: url("/fonts/Benzin-ExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
