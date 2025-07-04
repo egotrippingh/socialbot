@@ -1,4 +1,5 @@
 import './header.scss';
+import SocialBotLogo from '@/assets/images/socialbot.webp' 
 
 export const HeaderNavigation = () => {
   const navbar = [
@@ -11,7 +12,7 @@ export const HeaderNavigation = () => {
   return (
     <>
     <header className='header'>
-      <button className='header__logo'><a href="/image"><img src="#" alt="#" /></a></button>
+      <a className='header__logo' href="/"><img src={SocialBotLogo} alt="logo" /></a>
       <nav className='header__nav'>
         {navbar.map((item) => (
           <button className="button" key={item.id}>
