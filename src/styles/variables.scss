@@ -1,0 +1,23 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+
+
+    --border-width-l: 4px;
+    --border-width-m: 3px;
+    --border-width-s: 2px;
+
+
+    --font-family-base: 'Benzin-R', 'sans-serif';
+
+
+    --container-width: #{fluid-to-laptop($container-desktop-width, $container-laptop-width)};
+    --section-padding-y: #{fluid(75, 40)};
+    --container-padding-x: 16px;
+
+   
+    --transition-duration: 0.2s;
+    --transition-duration-longer: 0.4s;
+
+}
