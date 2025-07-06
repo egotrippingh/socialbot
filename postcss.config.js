@@ -1,6 +1,6 @@
 import postcssPxToRem from "postcss-pxtorem";
 
-export default ({ env }) => {
+export default ({env}) => {
   const isProd = env === "production";
   const plugins = [];
 
