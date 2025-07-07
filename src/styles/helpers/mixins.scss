@@ -67,11 +67,11 @@
   overflow: hidden !important;
 }
 
-// @mixin focus-visible {      #Пока хуй пойми зачем это
-//   outline: 2px dashed;
-//   outline-offset: 4px;
-//   transition-duration: 0s !important;
-// }
+ @mixin focus-visible {     // #Пока хуй пойми зачем это
+   outline: 2px dashed;
+   outline-offset: 4px;
+   transition-duration: 0s !important;
+ }
 
 @mixin disabled {
   opacity: 0.5;
