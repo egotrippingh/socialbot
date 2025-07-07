@@ -18,15 +18,15 @@ const Header = () => {
              src="@/assets/images/socialbot.webp"
              alt="logo"
         />
+        <nav className='header__inner--buttons container'>
         {navItems.map(item => (
-          <nav>
             <li key={item.id}>
               <a href={item.path}>
                 {item.label}
               </a>
             </li>
-          </nav>
         ))}
+        </nav>
       </div>
     </header>
   )
