@@ -8,7 +8,5 @@ import Footer from "@/layouts/Footer/Footer.jsx";
 createRoot(document.getElementById('root')).render(<>
   <div className="container">
     <Header />
-    <Content />
-    <Footer />
   </div>
 </>)

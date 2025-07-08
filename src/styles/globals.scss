@@ -7,8 +7,7 @@ html {
 
 body {
   @include fluid-text(18, 14);
-
-
+  
   display: flex;
   flex-direction: column;
   font-family: var(--font-family-base);

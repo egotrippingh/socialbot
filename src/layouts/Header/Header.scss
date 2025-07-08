@@ -3,13 +3,21 @@
   z-index: 100;
   top: 0;
   width: 100%;
-  padding-block: fluid(22, 14);
+  padding: fluid(22, 14);
+
 
 
   &__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 16px;
+    column-gap: 14px;
   }
+}
+
+
+.header__inner ul, li, a {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--color-white)
 }
