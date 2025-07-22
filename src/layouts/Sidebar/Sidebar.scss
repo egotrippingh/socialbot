@@ -1,0 +1,33 @@
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  color: var(--color-black);
+  left: 0;
+  height: 100vh;
+
+  &__logo {
+  }
+
+  &__block {
+    background-color: var(--color-orange);
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+
+  }
+  &__navigation-links {
+    text-decoration: none;
+    display: block;
+  }
+
+  &__navigation-link {
+    text-decoration: none;
+  }
+
+}
+
