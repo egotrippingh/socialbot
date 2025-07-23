@@ -8,8 +8,14 @@
   color: var(--color-black);
   left: 0;
   height: 100vh;
+  user-select: none;
 
   &__logo {
+
+    &.is-active {
+      pointer-events: none;
+      user-select: none;
+    }
   }
 
   &__block {
@@ -27,7 +33,20 @@
 
   &__navigation-link {
     text-decoration: none;
+    color: var(--color-black);
+
+    @include hover {
+      color: var(--color-black-20);
+    }
+
+    &.link-is-active {
+      background-color: (var(--color-white-10));
+      border-radius: var(--border-l);
+      pointer-events: none;
+      cursor: default;
+    }
   }
 
 }
+
 
