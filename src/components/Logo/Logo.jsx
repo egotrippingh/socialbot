@@ -1,5 +1,6 @@
 import './Logo.scss'
 import classNames from 'classnames'
+import {Link} from "react-router-dom";
 
 const Logo = (props) => {
   const {
@@ -8,9 +9,9 @@ const Logo = (props) => {
   } = props
   const title = 'Home'
   return (
-    <a
+    <Link
       className={classNames(className, 'logo')}
-      href="/"
+      to="/"
       title={title}
       aria-label={title}
     >
@@ -22,7 +23,7 @@ const Logo = (props) => {
         height={24}
         loading={loading}
       />
-    </a>
+    </Link>
   )
 }
 

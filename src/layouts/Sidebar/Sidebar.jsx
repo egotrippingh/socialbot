@@ -1,6 +1,7 @@
 import './Sidebar.scss'
 import Logo from "@/components/Logo/index.js";
 import {Link, useLocation} from 'react-router-dom'
+import {useState} from "react";
 
 const Sidebar = () => {
 
@@ -14,17 +15,24 @@ const Sidebar = () => {
     {id: 5, label: 'Прайсинг', path: '/pricing'}
   ];
 
+  const [isActiveSidebar, setActiveSidebar] = useState(true)
 
   return (
     <aside className='sidebar'>
       <div className='sidebar__block'>
-        <button className='sidebar__icon'>
-
-        </button>
         <Logo
           loading={'eager'}
-          className={`sidebar__logo ${pathname ==='/'?'is-active':''}`}
+          className={`sidebar__logo ${pathname ==='/'?'logo-active':''}`}
         />
+        <button
+          onClick={() => setActiveSidebar(prev => !prev)}
+          className={`sidebar__icon`}
+        >
+          <img loading="eager" alt='toggleSidebar'
+               src={isActiveSidebar
+                 ? '/chevron_left.svg'
+                 : '/chevron_right.svg'} />
+        </button>
       </div>
       <div className='sidebar__block'>
         <div className="sidebar__block-middle">
