@@ -67,7 +67,7 @@
   overflow: hidden !important;
 }
 
- @mixin focus-visible {     // #Пока хуй пойми зачем это
+ @mixin focus-visible {
    outline: 2px dashed;
    outline-offset: 4px;
    transition-duration: 0s !important;

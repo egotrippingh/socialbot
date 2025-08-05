@@ -1,21 +1,13 @@
 @use './helpers' as *;
 
 :root {
-  --color-white: #FFFFFF;
   --color-black: #000000;
-  --color-white-10: #FFFCF2;
-  --color-white-20: #CCC5B9;
-  --color-black-10: #403D39;
-  --color-black-20: #252422;
-  --color-orange: #EB5E28;
+  --color-white: #ffffff;
+  --color-light-blue: #DFECF2;
+  --color-dark-blue: #0070A4;
 
 
-  --border-l: 4px;
-  --border-m: 3px;
-  --border-s: 2px;
-
-
-  --font-family-base: 'Benzin-R', 'sans-serif';
+  --font-family-base: 'Garet-Book', 'sans-serif';
 
 
   --container-width: #{fluid-to-laptop($container-desktop-width, $container-laptop-width)};

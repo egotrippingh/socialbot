@@ -1,34 +1,50 @@
 @font-face {
   font-family: "Benzin-R";
-  src: url("@/assets/fonts/Benzin-Regular.woff2") format("woff2");
+  src: url("@/assets/fonts/Benzin-Regular.ttf") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Benzin-M";
-  src: url("@/assets/fonts/Benzin-Medium.woff2") format("woff2");
+  src: url("@/assets/fonts/Benzin-Medium.ttf") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Benzin-SB";
-  src: url("@/assets/fonts/Benzin-SemiBold.woff2") format("woff2");
+  src: url("@/assets/fonts/Benzin-SemiBold.ttf") format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Benzin-B";
-  src: url("@/assets/fonts/Benzin-Bold.woff2") format("woff2");
+  src: url("@/assets/fonts/Benzin-Bold.ttf") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Benzin-EB";
-  src: url("@/assets/fonts/Benzin-ExtraBold.woff2") format("woff2");
+  src: url("@/assets/fonts/Benzin-ExtraBold.ttf") format("woff2");
   font-weight: 800;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "Garet-Book";
+  src: url("@/assets/fonts/Garet-Book.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garet-Heavy";
+  src: url("@/assets/fonts/Garet-Heavy.woff2") format("woff2");
+  font-weight: 600;
   font-style: normal;
 }
